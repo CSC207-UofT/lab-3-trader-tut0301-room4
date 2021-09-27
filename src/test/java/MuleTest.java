@@ -6,7 +6,7 @@ public class MuleTest {
 
     Mule m;
 
-    @Before void setUp() throws Exception {
+    @Before public void setUp() throws Exception {
         m = new Mule();
     }
 
